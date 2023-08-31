@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">GoFly</string>
+    <string name="configuration_view_action_settings_title" translatable="false">Settings</string>
+
+    <string name="settings_fragment_label">Settings</string>
+    <string name="activity_configuration_editor_title">Configuration</string>
+    <string name="operation_success_tip">success!</string>
+    <string name="operation_start_tip">start!</string>
+    <string name="developing_tip">function development…</string>
+    <string name="fragment_configuration_view_label">Configuration</string>
+    <string name="fragment_subscription_label">Subscription</string>
+    <string name="fragment_settings_label">Settings</string>
+    <string name="fragment_logcat_label" translatable="false">Logcat</string>
+    <string name="activity_configuration_editor_text_remarks">remarks</string>
+    <string name="activity_configuration_editor_text_address">address</string>
+    <string name="activity_configuration_editor_text_port">port</string>
+    <string name="activity_configuration_editor_text_key">key</string>
+    <string name="activity_configuration_editor_text_protocol">protocol</string>
+    <string name="activity_configuration_editor_text_sni" translatable="false">SNI</string>
+    <string name="activity_configuration_editor_text_path">path</string>
+    <string name="activity_configuration_editor_text_ipv4">IPv4 address</string>
+    <string name="activity_configuration_editor_text_ipv6">IPv6 address</string>
+    <string name="activity_configuration_editor_text_dns" translatable="false">DNS</string>
+    <string name="activity_configuration_editor_text_public_key" translatable="false">PublicKey</string>
+    <string name="activity_configuration_editor_text_short_id" translatable="false">ShortId</string>
+    <string name="can_not_select_node">No node selected!</string>
+    <string name="activity_configuration_editor_text_obfs">obfs</string>
+    <string name="activity_configuration_editor_text_compress">compress</string>
+    <string name="activity_configuration_editor_text_isv">allowInsecure</string>
+    <string name="activity_configuration_editor_text_psk_mode">psk mode</string>
+    <string name="fragment_configuration_view_share_copied">copied</string>
+    <string name="activity_configuration_editor_read_from_clipboard_error">error</string>
+    <string name="activity_configuration_editor_read_from_clipboard_success">success</string>
+    <string name="activity_configuration_editor_write_to_clipboard_error">error</string>
+    <string name="activity_configuration_editor_write_to_clipboard_success">success</string>
+    <string name="activity_subscription_editor_title">Subscription</string>
+    <string name="activity_subscription_editor_text_remark">remarks</string>
+    <string name="activity_subscription_editor_auto_upgrade">auto update</string>
+    <string name="activity_subscription_editor_res_url">url</string>
+    <string name="activity_configuration_editor_text_host" translatable="false">Host</string>
+    <string name="root_preferences_category_basic_title">Basic</string>
+    <string name="root_preferences_category_basic_timeout_title">Timeout</string>
+    <string name="root_preferences_category_basic_bypass_lan_address_title">Bypass LAN address</string>
+    <string name="root_preferences_category_basic_show_traffic_notify_title">Display traffic information</string>
+    <string name="root_preferences_category_basic_mtu_title" translatable="false">MTU</string>
+    <string name="root_preferences_category_log_title" translatable="false">Log</string>
+    <string name="root_preferences_category_log_verbose_title" translatable="false">Verbose</string>
+    <string name="root_preferences_category_dns_title" translatable="false">DNS</string>
+    <string name="root_preferences_category_dns_server_title" translatable="false">Bootstrap Server</string>
+    <string name="root_preferences_category_dns_server_default_value" translatable="false">doh://1.1.1.1</string>
+    <string name="root_preferences_category_dns_prefer_ipv6_title">Prioritize IPv6</string>
+
+    <string name="configuration_view_action_tcping_title" translatable="false">Tcping</string>
+    <string name="configuration_view_action_ping_title" translatable="false">Ping</string>
+
+    <string name="connection_test_pending">Check Connectivity</string>
+    <string name="connection_test_testing">Testing…</string>
+    <string name="connection_test_available">Success: HTTP connection took %dms</string>
+    <string name="connection_test_error">Fail to detect internet connection: %s</string>
+    <string name="connection_test_fail">Internet Unavailable</string>
+    <string name="connection_test_error_status_code">Error code: #%d</string>
+    <string name="connection_connected">Connected, tap to check connection</string>
+    <string name="connection_not_connected">Not connected</string>
+
+    <string name="activity_subscription_editor_text_remark_accessibility_label">remarks input box</string>
+    <string name="activity_subscription_editor_res_url_accessibility_label">url input box</string>
+    <string name="activity_configuration_editor_text_remarks_accessibility_label">remarks input box</string>
+    <string name="activity_configuration_editor_text_address_accessibility_label">address input box</string>
+    <string name="activity_configuration_editor_text_port_accessibility_label">port input box</string>
+    <string name="activity_configuration_editor_text_key_accessibility_label">key input box</string>
+    <string name="activity_configuration_editor_text_host_accessibility_label">Host input box</string>
+    <string name="activity_configuration_editor_text_sni_accessibility_label">tls server name input box</string>
+    <string name="activity_configuration_editor_text_path_accessibility_label">path input box</string>
+    <string name="activity_configuration_editor_text_ipv4_accessibility_label">IPv4 address input box</string>
+    <string name="activity_configuration_editor_text_ipv6_accessibility_label">IPv6 address input box</string>
+    <string name="activity_configuration_editor_text_dns_accessibility_label">DNS server input box</string>
+    <string name="activity_configuration_editor_text_public_key_accessibility_label">PublicKey input box</string>
+    <string name="activity_configuration_editor_text_short_id_accessibility_label">ShortId input box</string>
+
+    <string name="fragment_logcat_action_refresh_title">refresh</string>
+    <string name="fragment_logcat_action_clear_title">clear</string>
+    <string name="activity_configuration_editor_action_read_from_clipboard_title">read from clipboard</string>
+    <string name="activity_configuration_editor_action_remove_forever_title">remove</string>
+    <string name="activity_configuration_editor_action_save_title">save</string>
+    <string name="fragment_configuration_view_action_add_title">new</string>
+    <string name="activity_subscription_editor_action_save_title">save</string>
+    <string name="fragment_subscription_action_refresh_title">refresh</string>
+    <string name="fragment_subscription_action_add_title">new</string>
+
+    <string name="fragment_configuration_view_fab_action_content_description">start or stop service</string>
+    <string name="template_node_list_row_item_share_this_node_content_description">share this node</string>
+    <string name="template_node_list_row_item_edit_this_node_content_description">edit this node</string>
+    <string name="template_node_list_row_item_remove_this_node_content_description">remove this node</string>
+
+    <string name="template_subscription_list_row_item_edit_this_subscription_content_descrption">edit this subscription</string>
+    <string name="template_subscription_list_row_item_remove_this_subscription_content_descrption">remove this subscription</string>
+
+    <string name="subscription_update_notification_action_cancel_work">Cancel</string>
+    <string name="subscription_update_notification_title">Subscription Update</string>
+    <string name="subscription_update_result_success">success</string>
+    <string name="subscription_update_result_failed_caused_by">Update Failed, Caused by %1$s</string>
+
+    <string name="activity_main_dialog_import_node_title">Import Node</string>
+    <string name="activity_main_dialog_import_node_action_import_title">import</string>
+    <string name="activity_main_dialog_import_node_description">Name: %1$s\nAddress: %2$s</string>
+    <string name="activity_main_dialog_import_node_action_import_result_success">Imported successfully</string>
+    <string name="activity_main_dialog_import_node_action_import_result_failed">Import failed</string>
+
+    <string name="activity_main_dialog_import_subscription_title">Import Subscription</string>
+    <string name="activity_main_dialog_import_subscription_action_import_title">import</string>
+    <string name="activity_main_dialog_import_subscription_description">Name: %1$s\nUrl: %2$s</string>
+    <string name="activity_main_dialog_import_subscription_action_import_result_success">Imported successfully</string>
+    <string name="activity_main_dialog_import_subscription_action_import_result_failed">Import failed</string>
+</resources>

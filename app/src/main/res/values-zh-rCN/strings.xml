@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GoFly</string>
+    <string name="settings_fragment_label">设置</string>
+    <string name="activity_configuration_editor_title">配置文件</string>
+    <string name="operation_success_tip">成功！</string>
+    <string name="operation_start_tip">开始！</string>
+    <string name="developing_tip">功能开发中…</string>
+    <string name="fragment_configuration_view_label">配置文件</string>
+    <string name="fragment_subscription_label">订阅</string>
+    <string name="fragment_settings_label">设置</string>
+    <string name="activity_configuration_editor_text_remarks">别名(remarks)</string>
+    <string name="activity_configuration_editor_text_address">地址(address)</string>
+    <string name="activity_configuration_editor_text_port">端口(port)</string>
+    <string name="activity_configuration_editor_text_key">密钥(key)</string>
+    <string name="activity_configuration_editor_text_protocol">传输协议(protocol)</string>
+    <string name="activity_configuration_editor_text_path">路径(path)</string>
+    <string name="activity_configuration_editor_text_ipv4">IPv4地址</string>
+    <string name="activity_configuration_editor_text_ipv6">IPv6地址</string>
+    <string name="activity_configuration_editor_text_psk_mode">psk模式(psk)</string>
+    <string name="activity_configuration_editor_text_compress">压缩(compress)</string>
+    <string name="activity_configuration_editor_text_isv">允许不安全连接(allowInsecure)</string>
+    <string name="can_not_select_node">未选择节点！</string>
+    <string name="activity_subscription_editor_title">订阅</string>
+    <string name="activity_subscription_editor_text_remark">别名(remarks)</string>
+    <string name="activity_subscription_editor_auto_upgrade">启用更新</string>
+    <string name="activity_subscription_editor_res_url">资源地址(url)</string>
+    <string name="fragment_configuration_view_share_copied">已复制！</string>
+    <string name="activity_configuration_editor_read_from_clipboard_error">失败！</string>
+    <string name="activity_configuration_editor_read_from_clipboard_success">成功！</string>
+    <string name="activity_configuration_editor_write_to_clipboard_error">失败！</string>
+    <string name="activity_configuration_editor_write_to_clipboard_success">成功！</string>
+    <string name="activity_configuration_editor_text_obfs">混淆(obfs)</string>
+    <string name="root_preferences_category_basic_title">基础</string>
+    <string name="root_preferences_category_basic_timeout_title">超时</string>
+    <string name="root_preferences_category_basic_bypass_lan_address_title">绕过局域网地址</string>
+    <string name="root_preferences_category_basic_show_traffic_notify_title">显示流量信息</string>
+    <string name="root_preferences_category_dns_prefer_ipv6_title">优先采用IPv6</string>
+
+    <string name="connection_test_pending">"检查网络连接"</string>
+    <string name="connection_test_testing">"测试中…"</string>
+    <string name="connection_test_available">"连接成功：延时 %d 毫秒"</string>
+    <string name="connection_test_error">"失败：%s"</string>
+    <string name="connection_test_fail">"无互联网连接"</string>
+    <string name="connection_test_error_status_code">"状态码无效（#%d）"</string>
+    <string name="connection_connected">"已连接，点击测试连接"</string>
+    <string name="connection_not_connected">"未连接"</string>
+
+    <string name="activity_subscription_editor_text_remark_accessibility_label">备注输入框</string>
+    <string name="activity_subscription_editor_res_url_accessibility_label">网址输入框</string>
+    <string name="activity_configuration_editor_text_remarks_accessibility_label">备注输入框</string>
+    <string name="activity_configuration_editor_text_address_accessibility_label">地址输入框</string>
+    <string name="activity_configuration_editor_text_port_accessibility_label">端口输入框</string>
+    <string name="activity_configuration_editor_text_key_accessibility_label">Key输入框</string>
+    <string name="activity_configuration_editor_text_host_accessibility_label">主机输入框</string>
+    <string name="activity_configuration_editor_text_sni_accessibility_label">tls服务器名称输入框</string>
+    <string name="activity_configuration_editor_text_path_accessibility_label">路径输入框</string>
+    <string name="activity_configuration_editor_text_ipv4_accessibility_label">IPv4地址输入框</string>
+    <string name="activity_configuration_editor_text_ipv6_accessibility_label">IPv6地址输入框</string>
+    <string name="activity_configuration_editor_text_dns_accessibility_label">DNS服务器输入框</string>
+    <string name="activity_configuration_editor_text_public_key_accessibility_label">公钥输入框</string>
+    <string name="activity_configuration_editor_text_short_id_accessibility_label">ShortId 输入框</string>
+
+    <string name="fragment_logcat_action_refresh_title">刷新</string>
+    <string name="fragment_logcat_action_clear_title">清除</string>
+    <string name="activity_configuration_editor_action_read_from_clipboard_title">从剪贴板读取</string>
+    <string name="activity_configuration_editor_action_remove_forever_title">删除</string>
+    <string name="activity_configuration_editor_action_save_title">保存</string>
+    <string name="fragment_configuration_view_action_add_title">新建</string>
+    <string name="activity_subscription_editor_action_save_title">保存</string>
+    <string name="fragment_subscription_action_refresh_title">刷新</string>
+    <string name="fragment_subscription_action_add_title">新建</string>
+
+    <string name="fragment_configuration_view_fab_action_content_description">启动或停止服务</string>
+    <string name="template_node_list_row_item_share_this_node_content_description">分享此节点</string>
+    <string name="template_node_list_row_item_edit_this_node_content_description">编辑此节点</string>
+    <string name="template_node_list_row_item_remove_this_node_content_description">删除此节点</string>
+
+    <string name="template_subscription_list_row_item_edit_this_subscription_content_descrption">编辑此订阅</string>
+    <string name="template_subscription_list_row_item_remove_this_subscription_content_descrption">删除此订阅</string>
+
+    <string name="subscription_update_notification_action_cancel_work">取消</string>
+    <string name="subscription_update_notification_title">订阅更新</string>
+    <string name="subscription_update_result_success">成功</string>
+    <string name="subscription_update_result_failed_caused_by">更新失败，原因： %1$s</string>
+
+    <string name="activity_main_dialog_import_node_title">导入节点</string>
+    <string name="activity_main_dialog_import_node_action_import_title">导入</string>
+    <string name="activity_main_dialog_import_node_description">名称：%1$s\n地址：%2$s</string>
+    <string name="activity_main_dialog_import_node_action_import_result_success">导入成功</string>
+    <string name="activity_main_dialog_import_node_action_import_result_failed">导入失败</string>
+
+    <string name="activity_main_dialog_import_subscription_title">导入订阅</string>
+    <string name="activity_main_dialog_import_subscription_action_import_title">导入</string>
+    <string name="activity_main_dialog_import_subscription_description">名称：%1$s\n连接：%2$s</string>
+    <string name="activity_main_dialog_import_subscription_action_import_result_success">导入成功</string>
+    <string name="activity_main_dialog_import_subscription_action_import_result_failed">导入失败</string>
+</resources>
