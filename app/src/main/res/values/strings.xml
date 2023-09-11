@@ -47,7 +47,7 @@
     <string name="root_preferences_category_log_verbose_title" translatable="false">Verbose</string>
     <string name="root_preferences_category_dns_title" translatable="false">DNS</string>
     <string name="root_preferences_category_dns_server_title" translatable="false">Bootstrap Server</string>
-    <string name="root_preferences_category_dns_server_default_value" translatable="false">doh://1.1.1.1</string>
+    <string name="root_preferences_category_dns_server_default_value">doh://dns.google</string>
     <string name="root_preferences_category_dns_prefer_ipv6_title">Prioritize IPv6</string>
 
     <string name="configuration_view_action_tcping_title" translatable="false">Tcping</string>

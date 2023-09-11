@@ -35,6 +35,7 @@
     <string name="root_preferences_category_basic_timeout_title">超時</string>
     <string name="root_preferences_category_basic_bypass_lan_address_title">繞過局域網地址</string>
     <string name="root_preferences_category_basic_show_traffic_notify_title">顯示流量信息</string>
+    <string name="root_preferences_category_dns_server_default_value">doh://dns.twnic.tw</string>
     <string name="root_preferences_category_dns_prefer_ipv6_title">優先採用IPv6</string>
 
     <string name="connection_test_pending">"測試連線能力"</string>
