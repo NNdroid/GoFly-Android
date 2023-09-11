@@ -1,6 +1,10 @@
 # GoFly-Android
 GoFly is a simple vpn client for android, and this repository is set for localization.
 
+<p>
+<a href="https://play.google.com/store/apps/details?id=app.fjj.gofly"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="100"></a>
+</p>
+
 ### Help with localization
 
 We encourage everyone to help with localization. The following is how to do.
