@@ -21,4 +21,4 @@ We encourage everyone to help with localization. The following is how to do.
 
 You can also [open an issue](https://github.com/NNdroid/GoFly-Android/issues/new) on GitHub, and I will check and reply to issues about once a week.
 
-You can email me [here](mailto:it@fjj.app) if must, but I'm sorry I may not respond.
+You can email me [here](mailto:nndroid_@outlook.com) if must, but I'm sorry I may not respond.
