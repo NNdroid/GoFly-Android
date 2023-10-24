@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">GoFly</string>
+    <string name="tile_toggle_service_title">Switch</string>
+    <string name="tile_toggle_service_first_use_tip">First use of this feature, please use the app to add server</string>
+
     <string name="configuration_view_action_settings_title" translatable="false">Settings</string>
 
     <string name="settings_fragment_label">Settings</string>
@@ -23,7 +26,8 @@
     <string name="activity_configuration_editor_text_dns" translatable="false">DNS</string>
     <string name="activity_configuration_editor_text_public_key" translatable="false">PublicKey</string>
     <string name="activity_configuration_editor_text_short_id" translatable="false">ShortId</string>
-    <string name="can_not_select_node">No node selected!</string>
+    <string name="gofly_service_error_type_no_node_selected">No node selected</string>
+    <string name="gofly_service_error_type_no_user_verification">VPN requires the authorization from the user, requesting…</string>
     <string name="activity_configuration_editor_text_obfs">obfs</string>
     <string name="activity_configuration_editor_text_compress">compress</string>
     <string name="activity_configuration_editor_text_isv">allowInsecure</string>
@@ -47,7 +51,7 @@
     <string name="root_preferences_category_log_verbose_title" translatable="false">Verbose</string>
     <string name="root_preferences_category_dns_title" translatable="false">DNS</string>
     <string name="root_preferences_category_dns_server_title" translatable="false">Bootstrap Server</string>
-    <string name="root_preferences_category_dns_server_default_value">doh://dns.google</string>
+    <string name="root_preferences_category_dns_server_default_value">doh://dns.google/?ip=8.8.8.8</string>
     <string name="root_preferences_category_dns_prefer_ipv6_title">Prioritize IPv6</string>
 
     <string name="configuration_view_action_tcping_title" translatable="false">Tcping</string>
@@ -59,8 +63,8 @@
     <string name="connection_test_error">Fail to detect internet connection: %s</string>
     <string name="connection_test_fail">Internet Unavailable</string>
     <string name="connection_test_error_status_code">Error code: #%d</string>
-    <string name="connection_connected">Connected, tap to check connection</string>
-    <string name="connection_not_connected">Not connected</string>
+    <string name="connection_state_connected">Connected, tap to check connection</string>
+    <string name="connection_state_not_connected">Not connected</string>
 
     <string name="activity_subscription_editor_text_remark_accessibility_label">remarks input box</string>
     <string name="activity_subscription_editor_res_url_accessibility_label">url input box</string>
@@ -111,4 +115,71 @@
     <string name="activity_main_dialog_import_subscription_description">Name: %1$s\nUrl: %2$s</string>
     <string name="activity_main_dialog_import_subscription_action_import_result_success">Imported successfully</string>
     <string name="activity_main_dialog_import_subscription_action_import_result_failed">Import failed</string>
+
+    <string name="activity_main_drawer_content_description_open">Open</string>
+    <string name="activity_main_drawer_content_description_close">Close</string>
+
+    <string name="fragment_about_label">About</string>
+    <string name="fragment_settings_sp_changed_tip">The New Configuration Restart To Effect</string>
+
+    <string name="shortcut_main_toggle_service_title">Toggle</string>
+
+    <string name="configuration_view_action_import_qrcode_title">Import config from QRcode</string>
+    <string name="configuration_view_action_import_clipboard_title">Import config from Clipboard</string>
+    <string name="configuration_view_action_import_manually_title">Type manually</string>
+
+    <string-array name="configuration_view_share_method">
+        <item>QRcode</item>
+        <item>Export to clipboard</item>
+    </string-array>
+
+    <string name="utils_share_uri_error_tip">ERROR</string>
+    <string name="utils_share_uri_ok_tip">OK</string>
+    <string name="utils_share_uri_unknown_tip">UNKNOWN</string>
+
+    <string name="root_preferences_category_basic_boot_at_start_up_title">Start at the boot</string>
+    <string name="root_preferences_category_basic_always_on_vpn_title">Always on VPN</string>
+    <string name="root_preferences_disable_item_summary_not_support">not support</string>
+
+    <string name="root_preferences_key_category_basic_connection_timed_out" translatable="false">category_basic_connection_timed_out</string>
+    <string name="root_preferences_key_category_basic_bypass_lan_address" translatable="false">category_basic_bypass_lan_address</string>
+    <string name="root_preferences_key_category_basic_mtu" translatable="false">category_basic_mtu</string>
+    <string name="root_preferences_key_category_basic_show_traffic_notify" translatable="false">category_basic_show_traffic_notify</string>
+    <string name="root_preferences_key_category_basic_boot_at_start_up" translatable="false">category_basic_boot_at_start_up</string>
+    <string name="root_preferences_key_category_log_verbose" translatable="false">category_log_verbose</string>
+    <string name="root_preferences_key_category_dns_server" translatable="false">category_dns_server</string>
+    <string name="root_preferences_key_category_dns_prefer_ipv6" translatable="false">category_dns_prefer_ipv6</string>
+    <string name="root_preferences_key_device_id" translatable="false">global_device_id</string>
+    <string name="root_preferences_key_category_basic_always_on_vpn" translatable="false">category_basic_always_on_vpn</string>
+
+    <string name="notification_app_updater_content_title">App Updater</string>
+    <string name="notification_app_updater_content_text">Download in progress</string>
+    <string name="dialog_app_updater_title">App Updater</string>
+    <string name="dialog_app_updater_message">An update has just been downloaded.</string>
+
+    <string name="notification_gms_module_installer_content_title">Module Installer</string>
+    <string name="notification_gms_module_installer_content_text">Download in progress</string>
+
+    <string name="gofly_service_configuration_check_result_failed_tip">Configuration or DNS failed</string>
+    <string name="gofly_service_error_type_unsupported_dns_protocol">Unsupported DNS protocol</string>
+    <string name="gofly_service_error_type_request_already_running">Request already running</string>
+    <string name="gofly_service_error_type_dns_query_failed">DNS query failed</string>
+    <string name="gofly_service_error_type_configuration_retrieval_failed">Configuration retrieval failed</string>
+    <string name="gofly_service_error_type_configuration_save_failed">Configuration save failed</string>
+
+    <string name="fragment_configuration_view_stats_bar_upload_speed_default_value" translatable="false">0.00B/s</string>
+    <string name="fragment_configuration_view_stats_bar_download_speed_default_value" translatable="false">0.00B/s</string>
+    <string name="fragment_configuration_view_stats_bar_total_upload_traffic_default_value" translatable="false">▲ 0.00B</string>
+    <string name="fragment_configuration_view_stats_bar_total_download_traffic_default_value" translatable="false">▼ 0.00B</string>
+    <string name="fragment_configuration_view_stats_bar_upload_speed_format" translatable="false">%s/s</string>
+    <string name="fragment_configuration_view_stats_bar_download_speed_format" translatable="false">%s/s</string>
+    <string name="fragment_configuration_view_stats_bar_total_upload_traffic_format" translatable="false">▲ %1$s</string>
+    <string name="fragment_configuration_view_stats_bar_total_download_traffic_format" translatable="false">▼ %1$s</string>
+
+    <string name="check_error_type_invalid_domain_address">Invalid domain address</string>
+    <string name="check_error_type_dns_query_failed">DNS query failed</string>
+    <string name="check_error_type_dns_empty_request">DNS empty request</string>
+
+    <string name="device_state_up">Connected</string>
+    <string name="device_state_down">Not Connected</string>
 </resources>

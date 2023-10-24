@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GoFly</string>
+    <string name="tile_toggle_service_title">开关</string>
+    <string name="tile_toggle_service_first_use_tip">初次使用此功能请先用APP添加配置</string>
     <string name="settings_fragment_label">设置</string>
     <string name="activity_configuration_editor_title">配置文件</string>
     <string name="operation_success_tip">成功！</string>
@@ -20,7 +22,8 @@
     <string name="activity_configuration_editor_text_psk_mode">psk模式(psk)</string>
     <string name="activity_configuration_editor_text_compress">压缩(compress)</string>
     <string name="activity_configuration_editor_text_isv">允许不安全连接(allowInsecure)</string>
-    <string name="can_not_select_node">未选择节点！</string>
+    <string name="gofly_service_error_type_no_node_selected">未选择节点</string>
+    <string name="gofly_service_error_type_no_user_verification">VPN 需要用户授权，请求…</string>
     <string name="activity_subscription_editor_title">订阅</string>
     <string name="activity_subscription_editor_text_remark">别名(remarks)</string>
     <string name="activity_subscription_editor_auto_upgrade">启用更新</string>
@@ -35,7 +38,7 @@
     <string name="root_preferences_category_basic_timeout_title">超时</string>
     <string name="root_preferences_category_basic_bypass_lan_address_title">绕过局域网地址</string>
     <string name="root_preferences_category_basic_show_traffic_notify_title">显示流量信息</string>
-    <string name="root_preferences_category_dns_server_default_value">doh://223.5.5.5</string>
+    <string name="root_preferences_category_dns_server_default_value">doh://dns.pub/?ip=1.12.12.12</string>
     <string name="root_preferences_category_dns_prefer_ipv6_title">优先采用IPv6</string>
 
     <string name="connection_test_pending">"检查网络连接"</string>
@@ -44,8 +47,8 @@
     <string name="connection_test_error">"失败：%s"</string>
     <string name="connection_test_fail">"无互联网连接"</string>
     <string name="connection_test_error_status_code">"状态码无效（#%d）"</string>
-    <string name="connection_connected">"已连接，点击测试连接"</string>
-    <string name="connection_not_connected">"未连接"</string>
+    <string name="connection_state_connected">"已连接，点击测试连接"</string>
+    <string name="connection_state_not_connected">"未连接"</string>
 
     <string name="activity_subscription_editor_text_remark_accessibility_label">备注输入框</string>
     <string name="activity_subscription_editor_res_url_accessibility_label">网址输入框</string>
@@ -96,4 +99,51 @@
     <string name="activity_main_dialog_import_subscription_description">名称：%1$s\n连接：%2$s</string>
     <string name="activity_main_dialog_import_subscription_action_import_result_success">导入成功</string>
     <string name="activity_main_dialog_import_subscription_action_import_result_failed">导入失败</string>
+
+    <string name="activity_main_drawer_content_description_open">打开</string>
+    <string name="activity_main_drawer_content_description_close">关闭</string>
+
+    <string name="fragment_about_label">关于</string>
+    <string name="fragment_settings_sp_changed_tip">新配置重启生效</string>
+
+    <string name="shortcut_main_toggle_service_title">切换</string>
+
+    <string name="configuration_view_action_import_qrcode_title">从二维码导入配置</string>
+    <string name="configuration_view_action_import_clipboard_title">从剪贴板导入配置</string>
+    <string name="configuration_view_action_import_manually_title">手动输入</string>
+
+    <string-array name="configuration_view_share_method">
+        <item>二维码</item>
+        <item>导出到剪贴板</item>
+    </string-array>
+
+    <string name="utils_share_uri_error_tip">错误</string>
+    <string name="utils_share_uri_ok_tip">确定</string>
+    <string name="utils_share_uri_unknown_tip">未知</string>
+
+    <string name="root_preferences_category_basic_boot_at_start_up_title">开机自启</string>
+    <string name="root_preferences_category_basic_always_on_vpn_title">总是在线VPN</string>
+    <string name="root_preferences_disable_item_summary_not_support">不支持</string>
+
+    <string name="notification_app_updater_content_title">应用更新程序</string>
+    <string name="notification_app_updater_content_text">正在下载</string>
+    <string name="dialog_app_updater_title">应用更新程序</string>
+    <string name="dialog_app_updater_message">刚刚下载了更新</string>
+
+    <string name="notification_gms_module_installer_content_title">模块安装程序</string>
+    <string name="notification_gms_module_installer_content_text">正在下载</string>
+
+    <string name="gofly_service_configuration_check_result_failed_tip">配置或 DNS 失败</string>
+    <string name="gofly_service_error_type_unsupported_dns_protocol">不支持的 DNS 协议</string>
+    <string name="gofly_service_error_type_request_already_running">请求已在运行</string>
+    <string name="gofly_service_error_type_dns_query_failed">DNS 查询失败</string>
+    <string name="gofly_service_error_type_configuration_retrieval_failed">配置检索失败</string>
+    <string name="gofly_service_error_type_configuration_save_failed">配置保存失败</string>
+
+    <string name="check_error_type_invalid_domain_address">域名地址无效</string>
+    <string name="check_error_type_dns_query_failed">DNS 查询失败</string>
+    <string name="check_error_type_dns_empty_request">DNS 空请求</string>
+
+    <string name="device_state_up">已连接</string>
+    <string name="device_state_down">未连接</string>
 </resources>
